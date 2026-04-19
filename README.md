@@ -1,4 +1,3 @@
-Prueba de entrada desarrollo de aplicaciones web               
 Grupo: 4
 
 Integrantes:
