@@ -26,6 +26,45 @@ header p {
   font-size: 14px;
 }
 
+/* Hero para eñ encabezado */
+.hero {
+  background-image: url("../img/EncabezadoFondo.png");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-family: Georgia, serif;
+  font-size: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffeba8;
+}
+
+.hero p {
+  font-size: 15px;
+  color: #ffc400;
+  margin-bottom: 10px;
+}
+
+/* Línea decorativa */
+.hero h1::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #ffb811ef;
+  margin: 10px auto;
+}
+
+
 /* nav */
 nav {
   margin-top: 10px;
@@ -40,7 +79,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #a3b18a;
+  color: #ffbb00;
 }
 
 /* Contenedor */
@@ -114,6 +153,7 @@ button:hover {
   padding: 10px;
   border-radius: 5px;
   font-size: 14px;
+
 }
 
 /* FORMULARIO */
