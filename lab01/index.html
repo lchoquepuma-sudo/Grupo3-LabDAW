@@ -7,7 +7,7 @@
 </head>
 
 <body>
-
+<button id="btn-dark-mode" class="boton-flotante" aria-label="Cambiar modo de color">🌙</button>  
 <header class="hero">
     <h1>DAW - Grupo 4</h1>
     <p>Sitio Developers - Presentación del equipo</p>
@@ -20,7 +20,6 @@
 </header>
 
 <div class="contenedor">
-
   <section>
     <h2>Acerca del grupo</h2>
     <p>
@@ -41,7 +40,7 @@
         <h3>Aleyda Quispe</h3>
         <p>"Me apasiona el diseño web y la creatividad."</p>
 
-        <button onclick="mostrarInfo('info1')">Ver más</button>
+        <button onclick="mostrarInfo('info1', this)">Ver más</button>
 
         <div id="info1" class="info-extra">
           <p><strong>GitHub:</strong> Aleyda1530 </p>
@@ -54,32 +53,32 @@
       <!-- Mauro -->
       <div class="tarjeta">
         <img src="img/MauroFoto.jpg" alt="Integrante 2">
-        <h3>Nombre Completo</h3>
-        <p>"Disfruto resolver problemas con código."</p>
+        <h3>Mauro Baldarrago</h3>
+        <p>"Desarrollador de Aplicaciones web"</p>
 
-        <button onclick="mostrarInfo('info2')">Ver más</button>
+        <button onclick="mostrarInfo('info2', this)">Ver más</button>
 
         <div id="info2" class="info-extra">
-          <p><strong>GitHub:</strong> usuario2</p>
+          <p><strong>GitHub:</strong> mauroBaldarrago</p>
           <p><strong>Rol:</strong> Backend</p>
           <p><strong>Intereses:</strong> Lógica, servidores y APIs.</p>
-          <p><strong>Pasatiempos:</strong> Coloquen aqui sus pasatiempos </p>
+          <p><strong>Pasatiempos:</strong> Escuchar música, leer, programar juegos. </p>
         </div>
       </div>
 
       <!-- Luis -->
       <div class="tarjeta">
-        <img src="img/LuisFoto.jpeg" alt="Integrante 3">
-        <h3>Luis Gerardo Choquepuma Villafuerte</h3>
+        <img src="img/LuisFoto.jpg" alt="Integrante 3">
+        <h3>Nombre Completo</h3>
         <p>"Siempre aprendiendo nuevas tecnologías."</p>
 
-        <button onclick="mostrarInfo('info3')">Ver más</button>
+        <button onclick="mostrarInfo('info3', this)">Ver más</button>
 
         <div id="info3" class="info-extra">
-          <p><strong>GitHub:</strong>lchoquepuma-sudo</p>
+          <p><strong>GitHub:</strong> usuario3</p>
           <p><strong>Rol:</strong> Base de Datos y conexiones</p>
           <p><strong>Intereses:</strong> Datos, consultas y optimización.</p>
-          <p><strong>Pasatiempos:</strong> Jugar videojuegos y estudiar programación </p>
+          <p><strong>Pasatiempos:</strong> Coloquen aqui sus pasatiempos </p>
         </div>
       </div>
 
